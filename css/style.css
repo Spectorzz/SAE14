@@ -40,3 +40,41 @@ body {
     background: rgba(0, 0, 0, 0.12);
     font-weight: 600;
 }
+
+/* PAGE D'ACCUEIL */
+body.home {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case {
+    width: 600px;
+    padding: 50px 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+    letter-spacing: 2px;
+}
+
+.hero-subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+}

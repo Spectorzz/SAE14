@@ -165,3 +165,51 @@ font-size: 18px;
 line-height: 1.6;
 font-weight: 300;
 }
+
+
+/*PAGE A PROPOS*/
+
+
+body.about-page {
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.info-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.info-card p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-weight: 300;
+}

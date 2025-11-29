@@ -213,3 +213,139 @@ body.about-page {
     font-size: 1.1rem;
     font-weight: 300;
 }
+
+
+/*RESPONSIVE*/
+
+@media all and (max-width: 1495px) {
+    
+   
+    .case {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .case2, .case3, .case4 {
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    .content-zone {
+        flex-direction: column;
+    }
+    
+    .image-placeholder {
+        position: relative;
+    }
+    
+    .content-section {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .info-card {
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 1495px) {
+    
+    .content-section {
+        margin-left: 20%;
+    }
+    
+    .text-content h2 {
+        text-align: left;
+    }
+    
+    .info-card h2 {
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 600px) {
+     
+    .top-nav {
+        top: 10px;
+        width: 95%;
+    }
+    
+    .top-nav nav {
+        gap: 6px;
+        padding: 6px 8px;
+    }
+    
+    .top-nav a {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    
+ 
+    .case {
+        width: 90%;
+        padding: 30px 20px;
+    }
+    
+    .hero-title {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    
+    .hero-subtitle {
+        font-size: 13px;
+    }
+      
+    .container {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    
+    .case2, .case3, .case4 {
+        width: 95%;
+        padding: 20px 15px;
+    }
+    
+    .content-zone {
+        gap: 15px;
+    }
+    
+    .image-placeholder {
+        height: 250px;
+    }
+    
+    .text-content {
+        padding: 0 10px;
+    }
+    
+    .text-content h2 {
+        font-size: 20px;
+    }
+    
+    .text-content p {
+        font-size: 14px;
+    }
+   
+    .content-section {
+        padding: 60px 15px 30px;
+        margin-left: 0;
+    }
+    
+    .info-card {
+        padding: 20px 15px;
+        margin: 15px auto;
+    }
+    
+    .info-card h2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+}

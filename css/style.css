@@ -60,7 +60,7 @@ background: rgba(0,0,0,0.06);
 body.home,
 body.home2,
 body.about-page {
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -171,7 +171,7 @@ font-weight: 300;
 
 
 body.about-page {
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

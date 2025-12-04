@@ -30,3 +30,10 @@ Le site comportera 3 pages :
 - Ajouter des animations CSS.
 - Ajouter le responsive.
 - Déployer le site sur GitHub Pages.
+
+## Validation W3C HTML
+![alt text](<images/Screenshot 2025-11-30 222752.png>)
+## Validation W3C CSS
+![alt text](<images/Screenshot 2025-11-30 222817.png>)
+## Validation conformité WCAG.0 AA
+![alt text](<images/Screenshot 2025-11-30 222836.png>)

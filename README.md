@@ -103,3 +103,9 @@ Ce projet répond point par point aux exigences du cahier des charges de la SAÉ
 ![alt text](<images/Screenshot 2025-11-30 222817.png>)
 ### conformité WCAG.0 AA
 ![alt text](<images/Screenshot 2025-11-30 222836.png>)
+### WAVE Web Accessibility
+![alt text](<images/Screenshot 2025-12-12 121832.png>)
+---
+![alt text](<images/Screenshot 2025-12-12 121909.png>)
+---
+![alt text](<images/Screenshot 2025-12-12 121936.png>)
